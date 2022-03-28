@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activityHome">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_for_about_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/profile"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="About Developer"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+
+    <!--    <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--        android:id="@+id/profile_image2"-->
+    <!--        android:layout_width="60dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginEnd="25dp"-->
+    <!--        android:src="@drawable/profile"-->
+    <!--        app:civ_border_color="#B30707"-->
+    <!--        app:civ_border_width="2dp"-->
+
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/profile_image2"-->
+    <!--        android:layout_marginEnd="25dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="#E41212"-->
+    <!--        android:textSize="10sp"-->
+    <!--        android:fontFamily="@font/roboto_thin"-->
+    <!--        android:text="About Developer"-->
+    <!--    />-->
+
+
+    <LinearLayout
+        android:id="@+id/names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Pdf_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/caveat_brush"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+
+
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="Stories"
+            android:textColor="#B30606"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_moreApp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/caveat_brush"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="More Apps"
+            android:textColor="#B30606"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_rateUs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/caveat_brush"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="Rate Us"
+            android:textColor="#B30606"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_shareApp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/caveat_brush"
+            android:paddingLeft="30dp"
+
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="Share App"
+            android:textColor="#B30606"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_exitApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/caveat_brush"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="Exit App"
+            android:textColor="#B30606"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+
+</RelativeLayout>
