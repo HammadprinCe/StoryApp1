@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-import java.io.File;
 import java.util.ArrayList;
 
 public class Adp_for_book extends RecyclerView.Adapter<Adp_for_book.ViewHolder> {

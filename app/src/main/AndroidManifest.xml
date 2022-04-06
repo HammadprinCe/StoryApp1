@@ -16,16 +16,16 @@
 
         >
         <activity
-            android:name=".DeveloperAbout"
+            android:name="com.example.storyapp.DeveloperAbout"
             android:exported="true" />
         <activity
-            android:name=".Pdf_view"
+            android:name="com.example.storyapp.Pdf_view"
             android:exported="true" />
         <activity
-            android:name=".Recycler_Activity"
+            android:name="com.example.storyapp.Recycler_Activity"
             android:exported="true" />
         <activity
-            android:name=".activityHome"
+            android:name="com.example.storyapp.activityHome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

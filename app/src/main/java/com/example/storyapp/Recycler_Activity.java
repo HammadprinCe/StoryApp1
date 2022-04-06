@@ -1,15 +1,14 @@
 package com.example.storyapp;
 
+import android.os.Bundle;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.LoadAdError;
@@ -63,35 +62,35 @@ public class Recycler_Activity extends AppCompatActivity {
                     }
                 });
 
-        ArrayList<modle> List = new ArrayList<>();
+        ArrayList<com.example.storyapp.modle> List = new ArrayList<>();
 
 //1
-        List.add(new modle("Hundred Moral Stories"));
+        List.add(new com.example.storyapp.modle("Hundred Moral Stories"));
 //        2
-        List.add(new modle("Crow & Peacock"));
+        List.add(new com.example.storyapp.modle("Crow & Peacock"));
 //        3
-        List.add(new modle("The Hunter & Pigeon"));
+        List.add(new com.example.storyapp.modle("The Hunter & Pigeon"));
 //        4
-        List.add(new modle("The Lion & The Rabbit"));
+        List.add(new com.example.storyapp.modle("The Lion & The Rabbit"));
 //        5
-        List.add(new modle("Two Friends & The Bear"));
+        List.add(new com.example.storyapp.modle("Two Friends & The Bear"));
 //        6
-        List.add(new modle("The boy who Cried Wolf"));
+        List.add(new com.example.storyapp.modle("The boy who Cried Wolf"));
 //        7
-        List.add(new modle("The Ant & The Grasshopper"));
+        List.add(new com.example.storyapp.modle("The Ant & The Grasshopper"));
 //        8
-        List.add(new modle("The Rabbit & Tortoise"));
+        List.add(new com.example.storyapp.modle("The Rabbit & Tortoise"));
 //        9
-        List.add(new modle("The Ugly Duckling"));
+        List.add(new com.example.storyapp.modle("The Ugly Duckling"));
 //        10
-        List.add(new modle("The Golden bird"));
+        List.add(new com.example.storyapp.modle("The Golden bird"));
 //        11
-        List.add(new modle("Fresh Air Fiend"));
+        List.add(new com.example.storyapp.modle("Fresh Air Fiend"));
 //        12
-        List.add(new modle("The Pit & The Pendulum"));
+        List.add(new com.example.storyapp.modle("The Pit & The Pendulum"));
 
 
-        Adp_for_book adapter = new Adp_for_book(List, this);
+        com.example.storyapp.Adp_for_book adapter = new com.example.storyapp.Adp_for_book(List, this);
         recyclerView.setAdapter(adapter);
         LinearLayoutManager layoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(layoutManager);
